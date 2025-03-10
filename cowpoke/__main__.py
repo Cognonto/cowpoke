@@ -21,10 +21,10 @@ elif kb_src is 'extract':
 elif kb_src is 'full':
     kb_src = 'start'    
 elif kb_src == 'working':
-    kbpedia = 'C:/1-ActivePython/kbpedia/working/kbpedia_reference_concepts.owl'
-    kko_file = 'C:/1-ActivePython/kbpedia/working/kko.owl'
+    kbpedia = 'C:/1-ActivePython/kbpedia/v300/build/working/kbpedia_reference_concepts.owl'
+    kko_file = 'C:/1-ActivePython/kbpedia/v300/build/working/kko.owl'
 elif kb_src == 'standard':
-    kbpedia = 'C:/1-ActivePython/kbpedia/v300/working/kbpedia_reference_concepts.owl'
+    kbpedia = 'C:/1-ActivePython/kbpedia/v300/build/working/kbpedia_reference_concepts.owl'
     kko_file = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kko.owl'
 elif kb_src == 'start':
     kbpedia = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kbpedia_rc_stub.owl'
