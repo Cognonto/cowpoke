@@ -13,8 +13,8 @@ setuptools.setup(
     long_description_content_type='text/markdown',
 	keywords='KBpedia, knowledge graph, build, extract', 
     url='https://github.com/Cognonto/cowpoke',
-#    packages=setuptools.find_packages(),
-    py_modules=['__main__', 'build', 'config', 'extract', 'mapping', 'setup', 'stats', 'utils', 'visualize'],
+    packages=setuptools.find_packages(),
+#    py_modules=['__main__', 'build', 'config', 'extract', 'mapping', 'setup', 'stats', 'utils', 'visualize'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
