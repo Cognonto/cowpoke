@@ -4,7 +4,7 @@ Created on Fri May  8 16:52:49 2020
 
 @author: Michael K Bergman
 """
-version_info = (0, 0, 1)
+version_info = (0, 0, 2)
 
 __version__ = '.'.join(map(str, version_info))
 __license__ = __doc__
