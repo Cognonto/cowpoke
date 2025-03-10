@@ -16,19 +16,19 @@ kb_src = master_deck.get('kb_src')                         # we get the build se
 if kb_src is None:
     kb_src = 'standard'
 elif kb_src is 'extract':
-    kbpedia = 'C:/1-PythonProjects/kbpedia/v300/build_ins/ontologies/kbpedia_reference_concepts.owl'
-    kko_file = 'C:/1-PythonProjects/kbpedia/v300/build_ins/stubs/kko.owl'
+    kbpedia = 'C:/1-ActivePython/kbpedia/v300/build/ontologies/kbpedia_reference_concepts.owl'
+    kko_file = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kko.owl'
 elif kb_src is 'full':
     kb_src = 'start'    
-elif kb_src == 'sandbox':
-    kbpedia = 'C:/1-PythonProjects/kbpedia/sandbox/kbpedia_reference_concepts.owl'
-    kko_file = 'C:/1-PythonProjects/kbpedia/sandbox/kko.owl'
+elif kb_src == 'working':
+    kbpedia = 'C:/1-ActivePython/kbpedia/working/kbpedia_reference_concepts.owl'
+    kko_file = 'C:/1-ActivePython/kbpedia/working/kko.owl'
 elif kb_src == 'standard':
-    kbpedia = 'C:/1-PythonProjects/kbpedia/v300/targets/ontologies/kbpedia_reference_concepts.owl'
-    kko_file = 'C:/1-PythonProjects/kbpedia/v300/build_ins/stubs/kko.owl'
+    kbpedia = 'C:/1-ActivePython/kbpedia/v300/working/kbpedia_reference_concepts.owl'
+    kko_file = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kko.owl'
 elif kb_src == 'start':
-    kbpedia = 'C:/1-PythonProjects/kbpedia/v300/build_ins/stubs/kbpedia_rc_stub.owl'
-    kko_file = 'C:/1-PythonProjects/kbpedia/v300/build_ins/stubs/kko.owl'
+    kbpedia = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kbpedia_rc_stub.owl'
+    kko_file = 'C:/1-ActivePython/kbpedia/v300/build/stubs/kko.owl'
 else:
     print('You have entered an inaccurate source parameter for the build.')
 skos_file = 'http://www.w3.org/2004/02/skos/core'
